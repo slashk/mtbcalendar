@@ -1,0 +1,15 @@
+#Fill here the Google Maps API keys for your application
+#In this sample:
+#For development and test, we have only one possible host (localhost:3000), so there is only a single key associated with the mode.
+#In production, the app can be accessed through 2 different hosts: thepochisuperstarmegashow.com and exmaple.com. There then needs a 2-key hash. If you deployed to one host, only the API key would be needed (as in development and test).
+
+development:
+ mtbcalendar.dev: ABQIAAAALkmBywvxy9mwdDbIunWyKRSxYSBBCh42CL2DvRhFi3HShSRzQBSFow9eBI9QE-QxYqnh7XeaRzUcRQ
+ localhost:3000: ABQIAAAALkmBywvxy9mwdDbIunWyKRT2yXp_ZAY8_ufC3CFXhHIE1NvwkxQBDjw9kSe7C2SlFOm1xuCqRdBjrQ
+
+test:
+ localhost: ABQIAAAALkmBywvxy9mwdDbIunWyKRT2yXp_ZAY8_ufC3CFXhHIE1NvwkxQBDjw9kSe7C2SlFOm1xuCqRdBjrQ
+ mtbcalendar.dev: ABQIAAAALkmBywvxy9mwdDbIunWyKRSxYSBBCh42CL2DvRhFi3HShSRzQBSFow9eBI9QE-QxYqnh7XeaRzUcRQ
+
+production:
+ ABQIAAAALkmBywvxy9mwdDbIunWyKRRirx-Bc2VpGaCRqsINXTLDlPw60hQ3XkhNdQylsyHaSDrZWxUa0fpfmg

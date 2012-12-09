@@ -15,3 +15,7 @@ gem "devise", ">= 2.1.2"
 gem "simple_form", ">= 2.0.4"
 gem "quiet_assets", ">= 1.0.1", :group => :development
 gem "hub", ">= 1.10.2", :require => nil, :group => [:development]
+gem "geokit"
+gem "prowly"
+gem 'RedCloth', :version => '>= 4.1.1'
+gem 'icalendar', :version => '>= 1.1.3'

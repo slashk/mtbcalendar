@@ -38,4 +38,14 @@ Mtbcalendar::Application.configure do
   # ActionMailer Config
   config.action_mailer.default_url_options = { :host => 'example.com' }
 
+  # MTBcalendar specific settings
+  # custom geocode rake task key
+  GOOGLE_MAPS_KEY = 'ABQIAAAALkmBywvxy9mwdDbIunWyKRT2yXp_ZAY8_ufC3CFXhHIE1NvwkxQBDjw9kSe7C2SlFOm1xuCqRdBjrQ'
+
+  # turn on/off ads
+  SHOW_ADS = false
+
+  # turn on/off counter
+  ADD_ANALYTICS = false
+
 end

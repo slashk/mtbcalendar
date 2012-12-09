@@ -31,8 +31,6 @@ Mtbcalendar::Application.configure do
     password: ENV["GMAIL_PASSWORD"]
   }
 
-
-
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log
 
@@ -51,4 +49,16 @@ Mtbcalendar::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  
+  # MTBcalendar specific variables
+  
+  # Custom geocode rake tasks config
+  GOOGLE_MAPS_KEY = 'ABQIAAAALkmBywvxy9mwdDbIunWyKRT2yXp_ZAY8_ufC3CFXhHIE1NvwkxQBDjw9kSe7C2SlFOm1xuCqRdBjrQ'
+
+  # turn on/off ads
+  SHOW_ADS = false
+
+  # turn on/off counter
+  ADD_ANALYTICS = false
+  
 end
